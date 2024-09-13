@@ -1,6 +1,6 @@
 # [level 0] 인덱스 바꾸기 - 120895 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120895) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120895?language=python3) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 09월 13일 11:03:20
+2024년 09월 13일 11:07:10
 
 ### 문제 설명
 
