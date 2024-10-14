@@ -1,21 +1,19 @@
 def solution(numbers, k):
-    
+
+
     if len(numbers) % 2 == 0:
+        even_numbers = []
         
-        numbers_even = []
-        
-        for num_even in range(0,len(numbers),2):
-            numbers_even.append(numbers[num_even])
+        for i in range(0, len(numbers), 2) :
+            even_numbers.append(numbers[i])
             
-        return numbers_even[(k % len(numbers_even)) - 1]
+        return even_numbers[(k % len(even_numbers)) -1]
     
-    elif len(numbers) % 2 != 0:
+    else :
+        odd_numbers = []
         
-        numbers_odd = []
-        
-        for loop_cnt in range(2):
-            
-            for num_odd_0 in range(loop_cnt,len(numbers),2):
-                numbers_odd.append(numbers[num_odd_0])
+        for i in range(2) :
+            for j in range(i, len(numbers), 2) :
+                odd_numbers.append(numbers[j])
                 
-        return numbers_odd[(k % len(numbers_odd)) - 1]
+        return odd_numbers[(k % len(odd_numbers)) -1]
