@@ -1,6 +1,6 @@
 # [level 0] 유한소수 판별하기 - 120878 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120878#qna) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120878) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 10월 21일 21:47:07
+2024년 10월 22일 14:33:36
 
 ### 문제 설명
 
